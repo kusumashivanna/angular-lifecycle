@@ -1,0 +1,4 @@
+<p>parent works!</p>
+<input [(ngModel)]="parentInputText" type="text">
+<app-child #projectedContent [inputText]="parentInputText">Project this content {{parentInputText}}
+</app-child>
